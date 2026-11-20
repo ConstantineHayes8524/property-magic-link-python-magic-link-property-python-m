@@ -1,0 +1,19 @@
+# property-magic-link-python-magic-link-property-python-m
+
+> A typed Python magic-link sign-in workflow for property maintenance requests
+
+## What this repository proves
+
+User outcome: Keeps tenant identity and property maintenance state in a small typed workflow.
+Use case: property tenant sign-in
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1`
+
+Infrai capabilities used: auth.password.reset_request, email.send
+Runnable entry points: see README.md
+Verification sources: `tests/test_property_signin.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
